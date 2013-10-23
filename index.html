@@ -1,0 +1,584 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css" />
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+
+</head>
+
+
+<body>
+
+
+<!-- Events -->
+<div data-role="page" id="home">
+    <div data-theme="b" data-role="header" data-position="fixed">
+        <h3>
+        <img src="logo.svg" alt="logo"> </h3>
+    </div>
+    <div data-role="content">
+        <div id="checkboxes1" data-role="fieldcontain">
+            <fieldset data-role="controlgroup" data-type="vertical">
+                <legend>
+                   Eventos próximos:
+                </legend>
+                <input id="checkbox1" name="" type="checkbox">
+                <label for="checkbox1">
+                    Le Herisson-Cineforo
+                    <p>Oct 4 - 8:00 p.m </p>
+                </label>
+                <input id="checkbox4" name="" type="checkbox">
+                <label for="checkbox4">
+                    Taller de artes marciales
+                    <p>Oct 5 - 3:00 p.m </p>
+                </label>
+                <input id="checkbox5" name="" type="checkbox">
+                <label for="checkbox5">
+                    Filosofía para niños
+                    <p>Oct 9 - 7:00 p.m </p>
+                </label>
+                <input id="checkbox6" name="" type="checkbox">
+                <label for="checkbox6">
+                    Concierto de jazz
+                    <p>Oct 10 - 6:00 p.m </p>
+                </label>
+                <input id="checkbox7" name="" type="checkbox">
+                <label for="checkbox7">
+                    La libélula dorada-Teatro
+                    <p>Oct 11 - 8:00 p.m </p>
+                </label>
+                
+                <a href="#favoritos" data-role="button">Aceptar</a>
+            </fieldset>
+        </div>
+    </div>
+    <div data-role="footer" data-position="fixed">
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#home" data-transition="fade" data-theme="" data-icon="home"class="ui-btn-active ui-state-persist">
+                        Events
+                    </a>
+                </li>
+                <li>
+                    <a href="#favoritos" data-transition="fade" data-theme="" data-icon="star">
+                        Favorit
+                    </a>
+                </li>
+                <li>
+                    <a href="#buscar" data-transition="fade" data-theme="" data-icon="search">
+                        Buscar
+                    </a>
+                </li>
+                <li>
+                    <a href="#configuracion" data-transition="fade" data-theme="" data-icon="gear">
+                        Config
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<!-- Configuracion -->
+<div data-role="page" id="configuracion">
+    <div data-theme="b" data-role="header" data-position="fixed">
+        <h3>
+            <img src="logo.svg" alt="logo">
+        </h3>
+    </div>
+    <div data-role="content">
+        <div id="checkboxes1" data-role="fieldcontain">
+            <fieldset data-role="controlgroup" data-type="vertical">
+                <legend>
+                    Seleccione sus preferencias:
+                </legend>
+                <input id="checkbox1" name="" type="checkbox">
+                <label for="checkbox1">
+                    Cine
+                </label>
+                <input id="checkbox4" name="" type="checkbox">
+                <label for="checkbox4">
+                    Deportes
+                </label>
+                <input id="checkbox5" name="" type="checkbox">
+                <label for="checkbox5">
+                    Filosofía
+                </label>
+                <input id="checkbox6" name="" type="checkbox">
+                <label for="checkbox6">
+                    Música
+                </label>
+                <input id="checkbox7" name="" type="checkbox">
+                <label for="checkbox7">
+                    Teatro
+                </label>
+                <input id="checkbox8" name="" type="checkbox">
+                <label for="checkbox8">
+                    Psicología
+                </label>
+                <input id="checkbox9" name="" type="checkbox">
+                <label for="checkbox9">
+                    Diseño Gráfico
+                </label>
+                <input id="checkbox10" name="" type="checkbox">
+                <label for="checkbox10">
+                    Danzas
+                </label>
+                 <input id="checkbox11" name="" type="checkbox">
+                <label for="checkbox11">
+                   Pastoral
+                </label>
+                 <input id="checkbox12" name="" type="checkbox">
+                <label for="checkbox12">
+                   Ingeniería
+                </label>
+                 <input id="checkbox13" name="" type="checkbox">
+                <label for="checkbox13">
+                    Medio Ambiente
+                </label>
+                 <input id="checkbox14" name="" type="checkbox">
+                <label for="checkbox14">
+                   Internacionalización
+                </label>
+                 <input id="checkbox15" name="" type="checkbox">
+                <label for="checkbox15">
+                  Educación
+                </label>
+                 <input id="checkbox16" name="" type="checkbox">
+                <label for="checkbox16">
+                   Ciencias Empresariales
+                </label>
+                 <a href="#home" data-role="button">Aceptar</a>
+            </fieldset>
+        </div>
+    </div>
+    <div data-role="footer" data-position="fixed">
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#home" data-transition="fade" data-theme="" data-icon="home">
+                        Events
+                    </a>
+                </li>
+                <li>
+                    <a href="#favoritos" data-transition="fade" data-theme="" data-icon="star">
+                        Favorit
+                    </a>
+                </li>
+                <li>
+                    <a href="#buscar" data-transition="fade" data-theme="" data-icon="search">
+                        Buscar
+                    </a>
+                </li>
+                <li>
+                    <a href="#configuracion" data-transition="fade" data-theme="" data-icon="gear"
+                    class="ui-btn-active ui-state-persist">
+                        Config
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<!-- favoritos -->
+<div data-role="page" id="favoritos">
+ <div data-theme="b" data-role="header" data-position="fixed">
+        <h3> <img src="logo.svg" alt="logo">
+        </h3>
+    </div>
+    <div data-role="content">
+        <ul data-role="listview" data-divider-theme="b" data-inset="true">
+            <li data-role="list-divider" role="heading">
+                Mis eventos
+            </li>
+            <li data-theme="c">
+                <a href="#cineforo" data-transition="slide">
+                    Cineforo
+                </a>
+            </li>
+            <li data-theme="c">
+                <a href="#teatro" data-transition="slide">
+                    Teatro
+                </a>
+            </li>
+        </ul>
+        <div data-role="footer" data-position="fixed">
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#home" data-transition="fade" data-theme="" data-icon="home">
+                        Events
+                    </a>
+                </li>
+                <li>
+                    <a href="#favoritos" data-transition="fade" data-theme="" data-icon="star" class="ui-btn-active ui-state-persist">
+                        Favorit
+                    </a>
+                </li>
+                <li>
+                    <a href="#buscar" data-transition="fade" data-theme="" data-icon="search">
+                        Buscar
+                    </a>
+                </li>
+                <li>
+                    <a href="#configuracion" data-transition="fade" data-theme="" data-icon="gear">
+                        Config
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </div>
+</div>
+
+
+
+<!-- buscar -->
+<div data-role="page" id="buscar">
+ <div data-theme="b" data-role="header" data-position="fixed">
+        <h3> <img src="logo.svg" alt="logo">
+        </h3>
+    </div>
+    <div data-role="content">
+       <ul data-role="listview" data-filter="true" data-filter-reveal="true" data-filter-placeholder="Introduzca una palabra..." data-inset="true">
+
+     <li><a href="#arte">Arte</a></li>
+    <li><a href="#cineforo">Cineforo</a></li>
+    <li><a href="#deportes">Deportes</a></li>
+    <li><a href="#diseno">Diseño</a></li>
+     <li><a href="#musica">Música</a></li>
+    <li><a href="#teatro">Teatro</a></li>
+</ul>
+        <div data-role="footer" data-position="fixed">
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#home" data-transition="fade" data-theme="" data-icon="home">
+                        Events
+                    </a>
+                </li>
+                <li>
+                    <a href="#favoritos" data-transition="fade" data-theme="" data-icon="star">
+                        Favorit
+                    </a>
+                </li>
+                <li>
+                    <a href="#buscar" data-transition="fade" data-theme="" data-icon="search" class="ui-btn-active ui-state-persist">
+                        Buscar
+                    </a>
+                </li>
+                <li>
+                    <a href="#configuracion" data-transition="fade" data-theme="" data-icon="gear">
+                        Config
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </div>
+</div>
+
+
+
+<!-- cineforo -->
+<div data-role="page" id="cineforo">
+    <div data-theme="b" data-role="header" data-position="fixed">
+        <h3>
+        <img src="logo.svg" alt="logo"> </h3>
+    </div>
+    <div data-role="content">
+     <h2>
+            Cineforo
+        </h2>
+      <center>  
+      <img src="Imagenes/imagen1.jpg" width="224" height="332">
+      <h2> Le herisson </h2>
+           </center>
+           <span class="ui-btn-up-e">16 de Octubre. 2:00 p.m .Salón B-206.</span>Relato del encuentro inesperado entre algunos de los habitantes del número 2 de la calle Eugène Manuel, en París: Paloma Josse, una niña de once años tremendamente inteligente y con un plan secreto; Renée Michel, portera discreta y solitaria que bajo su apariencia de inculta y arisca oculta en realidad una personalidad inteligente y cultivada, y el enigmático señor Kakuro Ozu, un japonés que acaba de mudarse al edificio.
+
+<a href="#favoritos" data-role="button">Guardar en favoritos</a>
+
+
+
+<div data-role="footer" data-position="fixed">
+      <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#home" data-transition="fade" data-theme="" data-icon="home">
+                        Events
+                    </a>
+                </li>
+                <li>
+                    <a href="#favoritos" data-transition="fade" data-theme="" data-icon="star">
+                        Favorit
+                    </a>
+                </li>
+                <li>
+                    <a href="#buscar" data-transition="fade" data-theme="" data-icon="search">
+                        Buscar
+                    </a>
+                </li>
+                <li>
+                    <a href="#configuracion" data-transition="fade" data-theme="" data-icon="gear">
+                        Config
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </div>
+</div>
+
+
+
+
+
+<!-- teatro -->
+<div data-role="page" id="teatro">
+    <div data-theme="b" data-role="header" data-position="fixed">
+        <h3>
+        <img src="logo.svg" alt="logo"> </h3>
+    </div>
+    <div data-role="content">
+     <h2>
+           Teatro
+        </h2>
+      <center>  
+        <img src="Imagenes/imagen2.jpg" width="517" height="316">
+         <h2> La boda de los pequeñoburgueses </h2>
+      </center>
+           <span class="ui-btn-up-e">24 de Octubre. 6:00 p.m Plazoleta</span>La boda de los pequeñoburgueses”, adaptada y dirigida por Ricardo Camacho, se basa en la obra clásica de Bertolt Brecht y se desarrolla en un ambiente burlesco, donde se destaca la extravagancia de los personajes y los giros inesperados que van de la mano de la música y la poesía.
+<a href="#favoritos" data-role="button">Guardar en favoritos</a>
+
+
+
+<div data-role="footer" data-position="fixed">
+      <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#home" data-transition="fade" data-theme="" data-icon="home">
+                        Events
+                    </a>
+                </li>
+                <li>
+                    <a href="#favoritos" data-transition="fade" data-theme="" data-icon="star">
+                        Favorit
+                    </a>
+                </li>
+                <li>
+                    <a href="#buscar" data-transition="fade" data-theme="" data-icon="search">
+                        Buscar
+                    </a>
+                </li>
+                <li>
+                    <a href="#configuracion" data-transition="fade" data-theme="" data-icon="gear">
+                        Config
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </div>
+</div>
+
+<!-- arte -->
+<div data-role="page" id="arte">
+    <div data-theme="b" data-role="header" data-position="fixed">
+        <h3>
+        <img src="logo.svg" alt="logo"> </h3>
+    </div>
+    <div data-role="content">
+     <h2>
+          Arte
+      </h2>
+      <center>  
+      <img src="Imagenes/imagen3.jpg" width="317" height="325">
+      <h2> Silencio </h2>
+      </center>
+           <span class="ui-btn-up-e">10 de Octubre. 7:00 p.m MAC</span>La Sala de Proyectos Bicentenario (SPB2) del Museo de Arte Contemporáneo de Bogotá recibe la muestra titulada “Silencio”, un recorrido por la obra de Abelardo Parra plasmada en diversas técnicas y materiales.
+<a href="#favoritos" data-role="button">Guardar en favoritos</a>
+
+<div data-role="footer" data-position="fixed">
+      <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#home" data-transition="fade" data-theme="" data-icon="home">
+                        Events
+                    </a>
+                </li>
+                <li>
+                    <a href="#favoritos" data-transition="fade" data-theme="" data-icon="star">
+                        Favorit
+                    </a>
+                </li>
+                <li>
+                    <a href="#buscar" data-transition="fade" data-theme="" data-icon="search">
+                        Buscar
+                    </a>
+                </li>
+                <li>
+                    <a href="#configuracion" data-transition="fade" data-theme="" data-icon="gear">
+                        Config
+                    </a>
+                </li>
+            </ul>
+      </div>
+    </div>
+    </div>
+</div>
+
+
+
+<!-- musica -->
+<div data-role="page" id="musica">
+    <div data-theme="b" data-role="header" data-position="fixed">
+        <h3>
+        <img src="logo.svg" alt="logo"> </h3>
+    </div>
+    <div data-role="content">
+     <h2>
+     Música
+      </h2>
+      <center>  
+     <img src="Imagenes/imagen4.jpg" width="377" height="196">
+     <h2> Andre Echeverri </h2>
+      </center>
+           <span class="ui-btn-up-e">30 de Octubre. 8:00 p.m Teatro Minuto de Dios</span>¡Haz parte del concierto privado que ofrecerá Andrea Echeverri!
+<a href="#favoritos" data-role="button">Guardar en favoritos</a>
+
+<div data-role="footer" data-position="fixed">
+      <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#home" data-transition="fade" data-theme="" data-icon="home">
+                        Events
+                    </a>
+                </li>
+                <li>
+                    <a href="#favoritos" data-transition="fade" data-theme="" data-icon="star">
+                        Favorit
+                    </a>
+                </li>
+                <li>
+                    <a href="#buscar" data-transition="fade" data-theme="" data-icon="search">
+                        Buscar
+                    </a>
+                </li>
+                <li>
+                    <a href="#configuracion" data-transition="fade" data-theme="" data-icon="gear">
+                        Config
+                    </a>
+                </li>
+            </ul>
+      </div>
+    </div>
+    </div>
+</div>
+
+
+
+
+<!-- deportes -->
+<div data-role="page" id="deportes">
+    <div data-theme="b" data-role="header" data-position="fixed">
+        <h3>
+        <img src="logo.svg" alt="logo"> </h3>
+    </div>
+    <div data-role="content">
+     <h2>
+Deportes
+      </h2>
+      <center>  
+    <img src="Imagenes/imagen5.jpg" width="632" height="410">
+    <h2> Torneos Internos Uniminuto </h2>
+      </center>
+           <span class="ui-btn-up-e">30 de Noviembre. 9:00 a.m Plazoleta Verde</span>Futsala, voleibol, baloncesto, ajedrez, tenis de mesa y fútbol tenis, serán las disciplinas que reunirán a estudiantes y administrativos durante este semestre en la nueva versión de los Torneos Internos de UNIMINUTO Sede Principal.
+<a href="#favoritos" data-role="button">Guardar en favoritos</a>
+
+<div data-role="footer" data-position="fixed">
+      <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#home" data-transition="fade" data-theme="" data-icon="home">
+                        Events
+                    </a>
+                </li>
+                <li>
+                    <a href="#favoritos" data-transition="fade" data-theme="" data-icon="star">
+                        Favorit
+                    </a>
+                </li>
+                <li>
+                    <a href="#buscar" data-transition="fade" data-theme="" data-icon="search">
+                        Buscar
+                    </a>
+                </li>
+                <li>
+                    <a href="#configuracion" data-transition="fade" data-theme="" data-icon="gear">
+                        Config
+                    </a>
+                </li>
+            </ul>
+      </div>
+    </div>
+    </div>
+</div>
+
+
+
+<!-- diseno -->
+<div data-role="page" id="diseno">
+    <div data-theme="b" data-role="header" data-position="fixed">
+        <h3>
+        <img src="logo.svg" alt="logo"> </h3>
+    </div>
+    <div data-role="content">
+     <h2>
+Diseño
+      </h2>
+      <center>  
+    <img src="Imagenes/imagen6.jpg" width="190" height="268">
+    <h2> Tipos Latinos </h2>
+      </center>
+           <span class="ui-btn-up-e">11 de Noviembre. 7:00 p.m MAC</span>TIPOS LATINOS en Uniminuto.Se exhibirán las mejores 76 tipografías diseñadas por latinoamericanos en 2013. No se lo pierdan!
+<a href="#favoritos" data-role="button">Guardar en favoritos</a>
+
+<div data-role="footer" data-position="fixed">
+      <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#home" data-transition="fade" data-theme="" data-icon="home">
+                        Events
+                    </a>
+                </li>
+                <li>
+                    <a href="#favoritos" data-transition="fade" data-theme="" data-icon="star">
+                        Favorit
+                    </a>
+                </li>
+                <li>
+                    <a href="#buscar" data-transition="fade" data-theme="" data-icon="search">
+                        Buscar
+                    </a>
+                </li>
+                <li>
+                    <a href="#configuracion" data-transition="fade" data-theme="" data-icon="gear">
+                        Config
+                    </a>
+                </li>
+            </ul>
+      </div>
+    </div>
+    </div>
+</div>
+
+</body>
+</html>
