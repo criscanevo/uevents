@@ -2,17 +2,17 @@
 <!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="150px" height="50px" viewBox="0 0 150 50" enable-background="new 0 0 150 50" xml:space="preserve">
-<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="23.6636" y1="-0.5093" x2="26.0105" y2="50.1835">
+	 width="200px" height="100px" viewBox="0 0 200 100" enable-background="new 0 0 200 100" xml:space="preserve">
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="47.4111" y1="-0.5454" x2="52.1132" y2="101.0196">
 	<stop  offset="0" style="stop-color:#BFEBFF"/>
 	<stop  offset="1" style="stop-color:#3F9BFF"/>
 </linearGradient>
-<path fill="url(#SVGID_1_)" d="M49.674,36.7c0,7.165-5.808,12.975-12.973,12.975H12.974C5.809,49.675,0,43.865,0,36.7V12.975
-	C0,5.809,5.809,0,12.974,0h23.727c7.166,0,12.973,5.809,12.973,12.975V36.7z"/>
-<polygon fill="#00539B" points="2.674,30.45 14.572,43.969 15.266,26.29 "/>
-<polygon fill="#FFD200" points="17.703,25.603 29.823,20.495 30.431,37.819 "/>
-<polygon fill="#00539B" points="31.74,19.715 44.026,13.401 46.029,31.033 "/>
-<path fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" d="M0.023,30.48c0,0,25.153-4.783,49.51-20.911"/>
-<text transform="matrix(1 0 0 1 68.1104 33.6689)" fill="#00539B" font-family="'Rockwell'" font-size="25.8895">Events</text>
-<text transform="matrix(1 0 0 1 51.6392 33.5889)" fill="#FFD200" font-family="'Rockwell'" font-size="25.8887">U</text>
+<path fill="url(#SVGID_1_)" d="M99.524,74.006C99.524,88.361,87.887,100,73.531,100H25.993C11.638,100,0,88.361,0,74.006V26.469
+	C0,12.112,11.638,0.475,25.993,0.475h47.538c14.355,0,25.993,11.638,25.993,25.994V74.006z"/>
+<polygon fill="#00539B" points="5.357,61.484 29.195,88.57 30.586,53.15 "/>
+<polygon fill="#FFD200" points="35.47,51.771 59.751,41.539 60.969,76.248 "/>
+<polygon fill="#00539B" points="63.593,39.977 88.207,27.326 92.222,62.652 "/>
+<path fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" d="M0.046,61.545c0,0,50.396-9.584,99.194-41.897"/>
+<text transform="matrix(1 0 0 1 118.4053 55.7344)" fill="#00539B" font-family="'Rockwell'" font-size="25.8117">Events</text>
+<text transform="matrix(1 0 0 1 102.9834 55.6543)" fill="#00539B" font-family="'Rockwell'" font-size="25.8109">U</text>
 </svg>

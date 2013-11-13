@@ -2,11 +2,16 @@
 <html>
 <head>
 <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <title>Untitled Document</title>
 
-<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css" />
-<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-<script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+<link rel="stylesheet" href="jquery.mobile-1.3.2.min.css" />
+<link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700' rel='stylesheet' type='text/css'>
+ <link rel="stylesheet" href="uevents.min.css" />
+  <link rel="stylesheet" href="jquery.mobile.structure-1.3.2.min.css" />
+<script src="jquery-1.9.1.min.js"></script>
+<script src="jquery.mobile-1.3.2.min.js"></script>
 
 </head>
 
@@ -15,12 +20,11 @@
 
 
 <!-- Events -->
-<div data-role="page" id="home">
-    <div data-theme="b" data-role="header" data-position="fixed">
+<div data-role="page" id="home">   <div data-theme="a" data-role="header" data-position="fixed">
         <h3>
         <img src="logo.svg" alt="logo"> </h3>
     </div>
-    <div data-role="content">
+    <div data-role="content" data-theme="a">
         <div id="checkboxes1" data-role="fieldcontain">
             <fieldset data-role="controlgroup" data-type="vertical">
                 <legend>
@@ -29,7 +33,9 @@
                 <input id="checkbox1" name="" type="checkbox">
                 <label for="checkbox1">
                     Le Herisson-Cineforo
-                    <p>Oct 4 - 8:00 p.m </p>
+                    <p>Oct 4 - 8:00 p.m 
+                    
+                    </p>
                 </label>
                 <input id="checkbox4" name="" type="checkbox">
                 <label for="checkbox4">
@@ -60,22 +66,22 @@
         <div data-role="navbar" data-iconpos="top">
             <ul>
                 <li>
-                    <a href="#home" data-transition="fade" data-theme="" data-icon="home"class="ui-btn-active ui-state-persist">
+                    <a href="#home" data-transition="fade" data-theme="a" data-icon="home"class="ui-btn-active ui-state-persist">
                         Events
                     </a>
                 </li>
                 <li>
-                    <a href="#favoritos" data-transition="fade" data-theme="" data-icon="star">
+                    <a href="#favoritos" data-transition="fade" data-theme="a" data-icon="star">
                         Favorit
                     </a>
                 </li>
                 <li>
-                    <a href="#buscar" data-transition="fade" data-theme="" data-icon="search">
+                    <a href="#buscar" data-transition="fade" data-theme="a" data-icon="search">
                         Buscar
                     </a>
                 </li>
                 <li>
-                    <a href="#configuracion" data-transition="fade" data-theme="" data-icon="gear">
+                    <a href="#configuracion" data-transition="fade" data-theme="a" data-icon="gear">
                         Config
                     </a>
                 </li>
@@ -87,7 +93,7 @@
 
 <!-- Configuracion -->
 <div data-role="page" id="configuracion">
-    <div data-theme="b" data-role="header" data-position="fixed">
+      <div data-theme="a" data-role="header" data-position="fixed">
         <h3>
             <img src="logo.svg" alt="logo">
         </h3>
@@ -162,22 +168,22 @@
         <div data-role="navbar" data-iconpos="top">
             <ul>
                 <li>
-                    <a href="#home" data-transition="fade" data-theme="" data-icon="home">
+                    <a href="#home" data-transition="fade" data-theme="a" data-icon="home">
                         Events
                     </a>
                 </li>
                 <li>
-                    <a href="#favoritos" data-transition="fade" data-theme="" data-icon="star">
+                    <a href="#favoritos" data-transition="fade" data-theme="a" data-icon="star">
                         Favorit
                     </a>
                 </li>
                 <li>
-                    <a href="#buscar" data-transition="fade" data-theme="" data-icon="search">
+                    <a href="#buscar" data-transition="fade" data-theme="a" data-icon="search">
                         Buscar
                     </a>
                 </li>
                 <li>
-                    <a href="#configuracion" data-transition="fade" data-theme="" data-icon="gear"
+                    <a href="#configuracion" data-transition="fade" data-theme="a" data-icon="gear"
                     class="ui-btn-active ui-state-persist">
                         Config
                     </a>
@@ -189,8 +195,7 @@
 
 
 <!-- favoritos -->
-<div data-role="page" id="favoritos">
- <div data-theme="b" data-role="header" data-position="fixed">
+<div data-role="page" id="favoritos">   <div data-theme="a" data-role="header" data-position="fixed">
         <h3> <img src="logo.svg" alt="logo">
         </h3>
     </div>
@@ -205,7 +210,7 @@
                 </a>
             </li>
             <li data-theme="c">
-                <a href="#teatro" data-transition="slide">
+                <a href="#boda" data-transition="slide">
                     Teatro
                 </a>
             </li>
@@ -214,22 +219,22 @@
         <div data-role="navbar" data-iconpos="top">
             <ul>
                 <li>
-                    <a href="#home" data-transition="fade" data-theme="" data-icon="home">
+                    <a href="#home" data-transition="fade" data-theme="a" data-icon="home">
                         Events
                     </a>
                 </li>
                 <li>
-                    <a href="#favoritos" data-transition="fade" data-theme="" data-icon="star" class="ui-btn-active ui-state-persist">
+                    <a href="#favoritos" data-transition="fade" data-theme="a" data-icon="star" class="ui-btn-active ui-state-persist">
                         Favorit
                     </a>
                 </li>
                 <li>
-                    <a href="#buscar" data-transition="fade" data-theme="" data-icon="search">
+                    <a href="#buscar" data-transition="fade" data-theme="a" data-icon="search">
                         Buscar
                     </a>
                 </li>
                 <li>
-                    <a href="#configuracion" data-transition="fade" data-theme="" data-icon="gear">
+                    <a href="#configuracion" data-transition="fade" data-theme="a" data-icon="gear">
                         Config
                     </a>
                 </li>
@@ -242,41 +247,194 @@
 
 
 <!-- buscar -->
-<div data-role="page" id="buscar">
- <div data-theme="b" data-role="header" data-position="fixed">
+<div data-role="page" id="buscar">   <div data-theme="a" data-role="header" data-position="fixed">
         <h3> <img src="logo.svg" alt="logo">
         </h3>
     </div>
     <div data-role="content">
-       <ul data-role="listview" data-filter="true" data-filter-reveal="true" data-filter-placeholder="Introduzca una palabra..." data-inset="true">
-
-     <li><a href="#arte">Arte</a></li>
-    <li><a href="#cineforo">Cineforo</a></li>
-    <li><a href="#deportes">Deportes</a></li>
-    <li><a href="#diseno">Diseño</a></li>
-     <li><a href="#musica">Música</a></li>
+    <ul data-role="listview">
+    <li><a href="#artesplasticas">Artes Plásticas</a></li>
+    <li><a href="#cine">Cine</a></li>
     <li><a href="#teatro">Teatro</a></li>
+    <li><a href="#musica">Música</a></li>
+    <li><a href="#bienestar">Bienestar universitario</a></li>
+    
+    <li><a href="#comunicacion">Facultad de Ciencias de la Comunicación</a></li>
+    <li><a href="#">Facultad de Ciencias Humanas y sociales</a></li>
+
+   <li><a href="#">Facultad de Ciencias Empresariales</a></li>
+
+        <li><a href="#">Facultad de Educación</a></li>
+
+   <li><a href="#">Facultad de Ingeniería</a></li>
+
+   <li><a href="#">Internacionalización</a></li>
+
+   
+
+   <li><a href="#">Pastoral</a></li>
+
+   
 </ul>
         <div data-role="footer" data-position="fixed">
         <div data-role="navbar" data-iconpos="top">
             <ul>
                 <li>
-                    <a href="#home" data-transition="fade" data-theme="" data-icon="home">
+                    <a href="#home" data-transition="fade" data-theme="a" data-icon="home">
                         Events
                     </a>
                 </li>
                 <li>
-                    <a href="#favoritos" data-transition="fade" data-theme="" data-icon="star">
+                    <a href="#favoritos" data-transition="fade" data-theme="a" data-icon="star">
                         Favorit
                     </a>
                 </li>
                 <li>
-                    <a href="#buscar" data-transition="fade" data-theme="" data-icon="search" class="ui-btn-active ui-state-persist">
+                    <a href="#buscar" data-transition="fade" data-theme="a" data-icon="search" class="ui-btn-active ui-state-persist">
                         Buscar
                     </a>
                 </li>
                 <li>
-                    <a href="#configuracion" data-transition="fade" data-theme="" data-icon="gear">
+                    <a href="#configuracion" data-transition="fade" data-theme="a" data-icon="gear">
+                        Config
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </div>
+</div>
+
+
+
+<!-- artes plasticas-->
+<div data-role="page" id="artesplasticas">   <div data-theme="a" data-role="header" data-position="fixed">
+        <h3> <img src="logo.svg" alt="logo">
+        </h3>
+    </div>
+    <div data-role="content">
+    <ul data-role="listview">
+    <li><a href="#arte">Silencio Exposición</a></li>
+    <li><a href="#tesis">Proyecto Tesis 2013</a></li>
+    <li><a href="#">Taller de Escultura</a></li>
+    <li><a href="#">Taller de Pintura</a></li>
+    
+</ul>
+        <div data-role="footer" data-position="fixed">
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#home" data-transition="fade" data-theme="a" data-icon="home">
+                        Events
+                    </a>
+                </li>
+                <li>
+                    <a href="#favoritos" data-transition="fade" data-theme="a" data-icon="star">
+                        Favorit
+                    </a>
+                </li>
+                <li>
+                    <a href="#buscar" data-transition="fade" data-theme="a" data-icon="search" class="ui-btn-active ui-state-persist">
+                        Buscar
+                    </a>
+                </li>
+                <li>
+                    <a href="#configuracion" data-transition="fade" data-theme="a" data-icon="gear">
+                        Config
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </div>
+</div>
+
+
+<!-- tesis -->
+<div data-role="page" id="tesis">   <div data-theme="a" data-role="header" data-position="fixed">
+        <h3>
+        <img src="logo.svg" alt="logo"> </h3>
+    </div>
+    <div data-role="content">
+     <h2>
+           Artes Plásticas
+        </h2>
+      <center>
+        <p><img src="Imagenes/imagen7.jpg" width="263" height="160"></p>
+        <h2> Proyecto Tesis 2013 </h2>
+           </center>
+           <span class="ui-btn-up-e">16 de Octubre. 2:00 p.m .Salón B-206.</span><br>
+En el año 2003 el Museo de Arte Contemporáneo después de un análisis de sus objetivos y planes de acción dentro de su vinculación al campo académico como entidad cultural de la Corporación Universitaria Minuto de Dios, establece como prioridad el impulso, difusión e investigación sobre los proyectos de grado en artes plásticas, visuales, diseño, fotografía y arquitectura junto con la creación de un banco de tesis de grado para el centro de documentación del Museo.
+
+<a href="#favoritos" data-role="button">Guardar en favoritos</a>
+
+
+
+<div data-role="footer" data-position="fixed">
+      <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#home" data-transition="fade" data-theme="a" data-icon="home">
+                        Events
+                    </a>
+                </li>
+                <li>
+                    <a href="#favoritos" data-transition="fade" data-theme="a" data-icon="star">
+                        Favorit
+                    </a>
+                </li>
+                <li>
+                    <a href="#buscar" data-transition="fade" data-theme="a" data-icon="search">
+                        Buscar
+                    </a>
+                </li>
+                <li>
+                    <a href="#configuracion" data-transition="fade" data-theme="a" data-icon="gear">
+                        Config
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </div>
+</div>
+
+
+
+
+<!-- cine-->
+<div data-role="page" id="cine">   <div data-theme="a" data-role="header" data-position="fixed">
+        <h3> <img src="logo.svg" alt="logo">
+        </h3>
+    </div>
+    <div data-role="content">
+    <ul data-role="listview">
+    <li><a href="#cineforo">Le Herisson</a></li>
+    <li><a href="#ana">Caótica Ana</a></li>
+    <li><a href="#">Dancer in the Dark</a></li>
+    <li><a href="#">Eterno Resplandor de una mente sin recuerdos</a></li>
+    
+</ul>
+        <div data-role="footer" data-position="fixed">
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#home" data-transition="fade" data-theme="a" data-icon="home">
+                        Events
+                    </a>
+                </li>
+                <li>
+                    <a href="#favoritos" data-transition="fade" data-theme="a" data-icon="star">
+                        Favorit
+                    </a>
+                </li>
+                <li>
+                    <a href="#buscar" data-transition="fade" data-theme="a" data-icon="search" class="ui-btn-active ui-state-persist">
+                        Buscar
+                    </a>
+                </li>
+                <li>
+                    <a href="#configuracion" data-transition="fade" data-theme="a" data-icon="gear">
                         Config
                     </a>
                 </li>
@@ -289,8 +447,7 @@
 
 
 <!-- cineforo -->
-<div data-role="page" id="cineforo">
-    <div data-theme="b" data-role="header" data-position="fixed">
+<div data-role="page" id="cineforo">   <div data-theme="a" data-role="header" data-position="fixed">
         <h3>
         <img src="logo.svg" alt="logo"> </h3>
     </div>
@@ -302,7 +459,8 @@
       <img src="Imagenes/imagen1.jpg" width="224" height="332">
       <h2> Le herisson </h2>
            </center>
-           <span class="ui-btn-up-e">16 de Octubre. 2:00 p.m .Salón B-206.</span>Relato del encuentro inesperado entre algunos de los habitantes del número 2 de la calle Eugène Manuel, en París: Paloma Josse, una niña de once años tremendamente inteligente y con un plan secreto; Renée Michel, portera discreta y solitaria que bajo su apariencia de inculta y arisca oculta en realidad una personalidad inteligente y cultivada, y el enigmático señor Kakuro Ozu, un japonés que acaba de mudarse al edificio.
+           <span class="ui-btn-up-e">16 de Octubre. 2:00 p.m .Salón B-206.</span><br>
+Relato del encuentro inesperado entre algunos de los habitantes del número 2 de la calle Eugène Manuel, en París: Paloma Josse, una niña de once años tremendamente inteligente y con un plan secreto; Renée Michel, portera discreta y solitaria que bajo su apariencia de inculta y arisca oculta en realidad una personalidad inteligente y cultivada, y el enigmático señor Kakuro Ozu, un japonés que acaba de mudarse al edificio.
 
 <a href="#favoritos" data-role="button">Guardar en favoritos</a>
 
@@ -312,22 +470,72 @@
       <div data-role="navbar" data-iconpos="top">
             <ul>
                 <li>
-                    <a href="#home" data-transition="fade" data-theme="" data-icon="home">
+                    <a href="#home" data-transition="fade" data-theme="a" data-icon="home">
                         Events
                     </a>
                 </li>
                 <li>
-                    <a href="#favoritos" data-transition="fade" data-theme="" data-icon="star">
+                    <a href="#favoritos" data-transition="fade" data-theme="a" data-icon="star">
                         Favorit
                     </a>
                 </li>
                 <li>
-                    <a href="#buscar" data-transition="fade" data-theme="" data-icon="search">
+                    <a href="#buscar" data-transition="fade" data-theme="a" data-icon="search">
                         Buscar
                     </a>
                 </li>
                 <li>
-                    <a href="#configuracion" data-transition="fade" data-theme="" data-icon="gear">
+                    <a href="#configuracion" data-transition="fade" data-theme="a" data-icon="gear">
+                        Config
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </div>
+</div>
+
+
+<!-- cineforo -->
+<div data-role="page" id="ana">   <div data-theme="a" data-role="header" data-position="fixed">
+        <h3>
+        <img src="logo.svg" alt="logo"> </h3>
+    </div>
+    <div data-role="content">
+     <h2>
+            Cineforo
+        </h2>
+      <center>  
+    <img src="Imagenes/imagen8.jpg" width="235" height="235">
+    <h2> Caótica Ana </h2>
+           </center>
+           <span class="ui-btn-up-e">16 de Octubre. 2:00 p.m .Salón B-206.</span><br>
+Ana (Manuela Vellés) y su mejor amiga Linda (Bebe) comparten el piso que una mecenas de jóvenes talentos tiene en Madrid, y donde también se refugian otros aspirantes a artistas, entre ellos un chico saharaui y un anglosajón. Antes de llegar a la capital, Ana vivía con un padre hippy, en Ibiza, donde trabajaba de camarera. 
+
+<a href="#favoritos" data-role="button">Guardar en favoritos</a>
+
+
+
+<div data-role="footer" data-position="fixed">
+      <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#home" data-transition="fade" data-theme="a" data-icon="home">
+                        Events
+                    </a>
+                </li>
+                <li>
+                    <a href="#favoritos" data-transition="fade" data-theme="a" data-icon="star">
+                        Favorit
+                    </a>
+                </li>
+                <li>
+                    <a href="#buscar" data-transition="fade" data-theme="a" data-icon="search">
+                        Buscar
+                    </a>
+                </li>
+                <li>
+                    <a href="#configuracion" data-transition="fade" data-theme="a" data-icon="gear">
                         Config
                     </a>
                 </li>
@@ -340,10 +548,101 @@
 
 
 
+<!-- teatro-->
+<div data-role="page" id="teatro">   <div data-theme="a" data-role="header" data-position="fixed">
+        <h3> <img src="logo.svg" alt="logo">
+        </h3>
+    </div>
+    <div data-role="content">
+    <ul data-role="listview">
+    <li><a href="#boda">La Boda de los pequeñoburgueses</a></li>
+    <li><a href="#orestiada">La Orestiada</a></li>
+ 
+    
+</ul>
+        <div data-role="footer" data-position="fixed">
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#home" data-transition="fade" data-theme="a" data-icon="home">
+                        Events
+                    </a>
+                </li>
+                <li>
+                    <a href="#favoritos" data-transition="fade" data-theme="a" data-icon="star">
+                        Favorit
+                    </a>
+                </li>
+                <li>
+                    <a href="#buscar" data-transition="fade" data-theme="a" data-icon="search" class="ui-btn-active ui-state-persist">
+                        Buscar
+                    </a>
+                </li>
+                <li>
+                    <a href="#configuracion" data-transition="fade" data-theme="a" data-icon="gear">
+                        Config
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </div>
+</div>
 
-<!-- teatro -->
-<div data-role="page" id="teatro">
-    <div data-theme="b" data-role="header" data-position="fixed">
+
+
+<!-- orestiada -->
+<div data-role="page" id="orestiada">   <div data-theme="a" data-role="header" data-position="fixed">
+        <h3>
+        <img src="logo.svg" alt="logo"> </h3>
+    </div>
+    <div data-role="content">
+     <h2>
+           Teatro
+        </h2>
+      <center>  
+       <img src="Imagenes/imagen9.jpg" width="298" height="170">
+       <h2> La Orestiada </h2>
+      </center>
+           <span class="ui-btn-up-e">24 de Octubre. 6:00 p.m Plazoleta</span><br>
+LA TRILOGÍA COMPLETA DE ESQUILO. La Orestiada es la trilogía escrita por Esquilo hacia el año 458 a. n. e. Está compuesta por “Agamenón”, “Las Coéforas” y “Las Eumenides”. Cada una de ellas posee una unidad propia, pero con un tema común: la sangre con la que se paga la sangre derramada o “la culpa hereditaria”.
+
+<a href="#favoritos" data-role="button">Guardar en favoritos</a>
+
+
+
+<div data-role="footer" data-position="fixed">
+      <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#home" data-transition="fade" data-theme="a" data-icon="home">
+                        Events
+                    </a>
+                </li>
+                <li>
+                    <a href="#favoritos" data-transition="fade" data-theme="a" data-icon="star">
+                        Favorit
+                    </a>
+                </li>
+                <li>
+                    <a href="#buscar" data-transition="fade" data-theme="a" data-icon="search">
+                        Buscar
+                    </a>
+                </li>
+                <li>
+                    <a href="#configuracion" data-transition="fade" data-theme="a" data-icon="gear">
+                        Config
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </div>
+</div>
+
+
+<!-- boda -->
+<div data-role="page" id="boda">   <div data-theme="a" data-role="header" data-position="fixed">
         <h3>
         <img src="logo.svg" alt="logo"> </h3>
     </div>
@@ -353,7 +652,7 @@
         </h2>
       <center>  
         <img src="Imagenes/imagen2.jpg" width="517" height="316">
-         <h2> La boda de los pequeñoburgueses </h2>
+         <h2> La Boda de los pequeñoburgueses </h2>
       </center>
            <span class="ui-btn-up-e">24 de Octubre. 6:00 p.m Plazoleta</span>La boda de los pequeñoburgueses”, adaptada y dirigida por Ricardo Camacho, se basa en la obra clásica de Bertolt Brecht y se desarrolla en un ambiente burlesco, donde se destaca la extravagancia de los personajes y los giros inesperados que van de la mano de la música y la poesía.
 <a href="#favoritos" data-role="button">Guardar en favoritos</a>
@@ -364,22 +663,22 @@
       <div data-role="navbar" data-iconpos="top">
             <ul>
                 <li>
-                    <a href="#home" data-transition="fade" data-theme="" data-icon="home">
+                    <a href="#home" data-transition="fade" data-theme="a" data-icon="home">
                         Events
                     </a>
                 </li>
                 <li>
-                    <a href="#favoritos" data-transition="fade" data-theme="" data-icon="star">
+                    <a href="#favoritos" data-transition="fade" data-theme="a" data-icon="star">
                         Favorit
                     </a>
                 </li>
                 <li>
-                    <a href="#buscar" data-transition="fade" data-theme="" data-icon="search">
+                    <a href="#buscar" data-transition="fade" data-theme="a" data-icon="search">
                         Buscar
                     </a>
                 </li>
                 <li>
-                    <a href="#configuracion" data-transition="fade" data-theme="" data-icon="gear">
+                    <a href="#configuracion" data-transition="fade" data-theme="a" data-icon="gear">
                         Config
                     </a>
                 </li>
@@ -390,8 +689,7 @@
 </div>
 
 <!-- arte -->
-<div data-role="page" id="arte">
-    <div data-theme="b" data-role="header" data-position="fixed">
+<div data-role="page" id="arte">   <div data-theme="a" data-role="header" data-position="fixed">
         <h3>
         <img src="logo.svg" alt="logo"> </h3>
     </div>
@@ -410,22 +708,22 @@
       <div data-role="navbar" data-iconpos="top">
             <ul>
                 <li>
-                    <a href="#home" data-transition="fade" data-theme="" data-icon="home">
+                    <a href="#home" data-transition="fade" data-theme="a" data-icon="home">
                         Events
                     </a>
                 </li>
                 <li>
-                    <a href="#favoritos" data-transition="fade" data-theme="" data-icon="star">
+                    <a href="#favoritos" data-transition="fade" data-theme="a" data-icon="star">
                         Favorit
                     </a>
                 </li>
                 <li>
-                    <a href="#buscar" data-transition="fade" data-theme="" data-icon="search">
+                    <a href="#buscar" data-transition="fade" data-theme="a" data-icon="search">
                         Buscar
                     </a>
                 </li>
                 <li>
-                    <a href="#configuracion" data-transition="fade" data-theme="" data-icon="gear">
+                    <a href="#configuracion" data-transition="fade" data-theme="a" data-icon="gear">
                         Config
                     </a>
                 </li>
@@ -437,9 +735,52 @@
 
 
 
-<!-- musica -->
-<div data-role="page" id="musica">
-    <div data-theme="b" data-role="header" data-position="fixed">
+
+<!-- musica-->
+<div data-role="page" id="musica">   <div data-theme="a" data-role="header" data-position="fixed">
+        <h3> <img src="logo.svg" alt="logo">
+        </h3>
+    </div>
+    <div data-role="content">
+    <ul data-role="listview">
+    <li><a href="#andrea">Andrea Echeverri</a></li>
+    <li><a href="#concierto">Concierto Uniminuto</a></li>
+    <li><a href="#">La OFB en Uniminuto</a></li>
+
+    
+</ul>
+        <div data-role="footer" data-position="fixed">
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#home" data-transition="fade" data-theme="a" data-icon="home">
+                        Events
+                    </a>
+                </li>
+                <li>
+                    <a href="#favoritos" data-transition="fade" data-theme="a" data-icon="star">
+                        Favorit
+                    </a>
+                </li>
+                <li>
+                    <a href="#buscar" data-transition="fade" data-theme="a" data-icon="search" class="ui-btn-active ui-state-persist">
+                        Buscar
+                    </a>
+                </li>
+                <li>
+                    <a href="#configuracion" data-transition="fade" data-theme="a" data-icon="gear">
+                        Config
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </div>
+</div>
+
+
+<!-- andrea -->
+<div data-role="page" id="andrea">   <div data-theme="a" data-role="header" data-position="fixed">
         <h3>
         <img src="logo.svg" alt="logo"> </h3>
     </div>
@@ -451,29 +792,30 @@
      <img src="Imagenes/imagen4.jpg" width="377" height="196">
      <h2> Andre Echeverri </h2>
       </center>
-           <span class="ui-btn-up-e">30 de Octubre. 8:00 p.m Teatro Minuto de Dios</span>¡Haz parte del concierto privado que ofrecerá Andrea Echeverri!
+           <span class="ui-btn-up-e">30 de Octubre. 8:00 p.m Teatro Minuto de Dios</span><br>
+¡Haz parte del concierto privado que ofrecerá Andrea Echeverri!
 <a href="#favoritos" data-role="button">Guardar en favoritos</a>
 
 <div data-role="footer" data-position="fixed">
       <div data-role="navbar" data-iconpos="top">
             <ul>
                 <li>
-                    <a href="#home" data-transition="fade" data-theme="" data-icon="home">
+                    <a href="#home" data-transition="fade" data-theme="a" data-icon="home">
                         Events
                     </a>
                 </li>
                 <li>
-                    <a href="#favoritos" data-transition="fade" data-theme="" data-icon="star">
+                    <a href="#favoritos" data-transition="fade" data-theme="a" data-icon="star">
                         Favorit
                     </a>
                 </li>
                 <li>
-                    <a href="#buscar" data-transition="fade" data-theme="" data-icon="search">
+                    <a href="#buscar" data-transition="fade" data-theme="a" data-icon="search">
                         Buscar
                     </a>
                 </li>
                 <li>
-                    <a href="#configuracion" data-transition="fade" data-theme="" data-icon="gear">
+                    <a href="#configuracion" data-transition="fade" data-theme="a" data-icon="gear">
                         Config
                     </a>
                 </li>
@@ -484,11 +826,99 @@
 </div>
 
 
+<!-- concierto -->
+<div data-role="page" id="concierto">   <div data-theme="a" data-role="header" data-position="fixed">
+        <h3>
+        <img src="logo.svg" alt="logo"> </h3>
+    </div>
+    <div data-role="content">
+     <h2>
+     Música
+      </h2>
+      <center>  
+    <img src="Imagenes/imagen10.jpg" width="283" height="182">
+    <h2> Concierto Uniminuto 20 años </h2>
+      </center>
+           <span class="ui-btn-up-e">30 de Octubre. 8:00 p.m Teatro Minuto de Dios</span><br>
+Con motivo del cumpleaños número 20, se celebra un concierto con la participación de: La 33, la Orquesta de Uniminuto y el grupo Vallenato de la sede principal.
+<a href="#favoritos" data-role="button">Guardar en favoritos</a>
+
+<div data-role="footer" data-position="fixed">
+      <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#home" data-transition="fade" data-theme="a" data-icon="home">
+                        Events
+                    </a>
+                </li>
+                <li>
+                    <a href="#favoritos" data-transition="fade" data-theme="a" data-icon="star">
+                        Favorit
+                    </a>
+                </li>
+                <li>
+                    <a href="#buscar" data-transition="fade" data-theme="a" data-icon="search">
+                        Buscar
+                    </a>
+                </li>
+                <li>
+                    <a href="#configuracion" data-transition="fade" data-theme="a" data-icon="gear">
+                        Config
+                    </a>
+                </li>
+            </ul>
+      </div>
+    </div>
+    </div>
+</div>
 
 
-<!-- deportes -->
-<div data-role="page" id="deportes">
-    <div data-theme="b" data-role="header" data-position="fixed">
+<!-- bienestar-->
+<div data-role="page" id="bienestar">   <div data-theme="a" data-role="header" data-position="fixed">
+        <h3> <img src="logo.svg" alt="logo">
+        </h3>
+    </div>
+    <div data-role="content">
+    <ul data-role="listview">
+    <li><a href="#torneo">Torneos Internos Uniminuto</a></li>
+    <li><a href="#taller">Taller de Braille</a></li>
+    <li><a href="#">Campeonato de ajedrez</a></li>
+  
+    
+</ul>
+        <div data-role="footer" data-position="fixed">
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#home" data-transition="fade" data-theme="a" data-icon="home">
+                        Events
+                    </a>
+                </li>
+                <li>
+                    <a href="#favoritos" data-transition="fade" data-theme="a" data-icon="star">
+                        Favorit
+                    </a>
+                </li>
+                <li>
+                    <a href="#buscar" data-transition="fade" data-theme="a" data-icon="search" class="ui-btn-active ui-state-persist">
+                        Buscar
+                    </a>
+                </li>
+                <li>
+                    <a href="#configuracion" data-transition="fade" data-theme="a" data-icon="gear">
+                        Config
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </div>
+</div>
+
+
+
+<!-- torneo -->
+<div data-role="page" id="torneo">   <div data-theme="a" data-role="header" data-position="fixed">
         <h3>
         <img src="logo.svg" alt="logo"> </h3>
     </div>
@@ -497,7 +927,7 @@
 Deportes
       </h2>
       <center>  
-    <img src="Imagenes/imagen5.jpg" width="632" height="410">
+    <img src="Imagenes/imagen5.jpg" width="386" height="250">
     <h2> Torneos Internos Uniminuto </h2>
       </center>
            <span class="ui-btn-up-e">30 de Noviembre. 9:00 a.m Plazoleta Verde</span>Futsala, voleibol, baloncesto, ajedrez, tenis de mesa y fútbol tenis, serán las disciplinas que reunirán a estudiantes y administrativos durante este semestre en la nueva versión de los Torneos Internos de UNIMINUTO Sede Principal.
@@ -507,22 +937,22 @@ Deportes
       <div data-role="navbar" data-iconpos="top">
             <ul>
                 <li>
-                    <a href="#home" data-transition="fade" data-theme="" data-icon="home">
+                    <a href="#home" data-transition="fade" data-theme="a" data-icon="home">
                         Events
                     </a>
                 </li>
                 <li>
-                    <a href="#favoritos" data-transition="fade" data-theme="" data-icon="star">
+                    <a href="#favoritos" data-transition="fade" data-theme="a" data-icon="star">
                         Favorit
                     </a>
                 </li>
                 <li>
-                    <a href="#buscar" data-transition="fade" data-theme="" data-icon="search">
+                    <a href="#buscar" data-transition="fade" data-theme="a" data-icon="search">
                         Buscar
                     </a>
                 </li>
                 <li>
-                    <a href="#configuracion" data-transition="fade" data-theme="" data-icon="gear">
+                    <a href="#configuracion" data-transition="fade" data-theme="a" data-icon="gear">
                         Config
                     </a>
                 </li>
@@ -533,10 +963,96 @@ Deportes
 </div>
 
 
+<!-- taller -->
+<div data-role="page" id="taller">   <div data-theme="a" data-role="header" data-position="fixed">
+        <h3>
+        <img src="logo.svg" alt="logo"> </h3>
+    </div>
+    <div data-role="content">
+     <h2>
+Bienestar
+      </h2>
+      <center>  
+    <img src="Imagenes/imagen11.jpg" width="275" height="183">
+    <h2> Taller de Braille </h2>
+      </center>
+           <span class="ui-btn-up-e">30 de Noviembre. 9:00 a.m Salón B-606</span><br>
+Conoce el sistema de lectura de las personas con discapacidad visual.
+<a href="#favoritos" data-role="button">Guardar en favoritos</a>
+
+<div data-role="footer" data-position="fixed">
+      <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#home" data-transition="fade" data-theme="a" data-icon="home">
+                        Events
+                    </a>
+                </li>
+                <li>
+                    <a href="#favoritos" data-transition="fade" data-theme="a" data-icon="star">
+                        Favorit
+                    </a>
+                </li>
+                <li>
+                    <a href="#buscar" data-transition="fade" data-theme="a" data-icon="search">
+                        Buscar
+                    </a>
+                </li>
+                <li>
+                    <a href="#configuracion" data-transition="fade" data-theme="a" data-icon="gear">
+                        Config
+                    </a>
+                </li>
+            </ul>
+      </div>
+    </div>
+    </div>
+</div>
+
+<!-- comunicacion-->
+<div data-role="page" id="comunicacion">   <div data-theme="a" data-role="header" data-position="fixed">
+        <h3> <img src="logo.svg" alt="logo">
+        </h3>
+    </div>
+    <div data-role="content">
+    <ul data-role="listview">
+    <li><a href="#diseno">Tipos Latinos</a></li>
+    <li><a href="#semana">Semana Internacional de la comunicación</a></li>
+   
+  
+    
+</ul>
+        <div data-role="footer" data-position="fixed">
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#home" data-transition="fade" data-theme="a" data-icon="home">
+                        Events
+                    </a>
+                </li>
+                <li>
+                    <a href="#favoritos" data-transition="fade" data-theme="a" data-icon="star">
+                        Favorit
+                    </a>
+                </li>
+                <li>
+                    <a href="#buscar" data-transition="fade" data-theme="a" data-icon="search" class="ui-btn-active ui-state-persist">
+                        Buscar
+                    </a>
+                </li>
+                <li>
+                    <a href="#configuracion" data-transition="fade" data-theme="a" data-icon="gear">
+                        Config
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </div>
+</div>
 
 <!-- diseno -->
-<div data-role="page" id="diseno">
-    <div data-theme="b" data-role="header" data-position="fixed">
+<div data-role="page" id="diseno">   <div data-theme="a" data-role="header" data-position="fixed">
         <h3>
         <img src="logo.svg" alt="logo"> </h3>
     </div>
@@ -555,22 +1071,68 @@ Diseño
       <div data-role="navbar" data-iconpos="top">
             <ul>
                 <li>
-                    <a href="#home" data-transition="fade" data-theme="" data-icon="home">
+                    <a href="#home" data-transition="fade" data-theme="a" data-icon="home">
                         Events
                     </a>
                 </li>
                 <li>
-                    <a href="#favoritos" data-transition="fade" data-theme="" data-icon="star">
+                    <a href="#favoritos" data-transition="fade" data-theme="a" data-icon="star">
                         Favorit
                     </a>
                 </li>
                 <li>
-                    <a href="#buscar" data-transition="fade" data-theme="" data-icon="search">
+                    <a href="#buscar" data-transition="fade" data-theme="a" data-icon="search">
                         Buscar
                     </a>
                 </li>
                 <li>
-                    <a href="#configuracion" data-transition="fade" data-theme="" data-icon="gear">
+                    <a href="#configuracion" data-transition="fade" data-theme="a" data-icon="gear">
+                        Config
+                    </a>
+                </li>
+            </ul>
+      </div>
+    </div>
+    </div>
+</div>
+
+
+<!-- semana -->
+<div data-role="page" id="semana">   <div data-theme="a" data-role="header" data-position="fixed">
+        <h3>
+        <img src="logo.svg" alt="logo"> </h3>
+    </div>
+    <div data-role="content">
+     <h2>
+VII Semana Internacional de la Comunicación
+      </h2>
+      <center>  
+   <img src="Imagenes/imagen12.jpg" width="318" height="159">
+   <h2> Cartografías y nuevas Rutas de la comunicación </h2>
+      </center>
+           <span class="ui-btn-up-e">11 de Noviembre. 7:00 p.m MAC</span>En esta ocasión el foco central de la semana internacional de la comunicación será reconocer la trascendencia del pensamiendo de Jesús Martín Barbero.
+<a href="#favoritos" data-role="button">Guardar en favoritos</a>
+
+<div data-role="footer" data-position="fixed">
+      <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#home" data-transition="fade" data-theme="a" data-icon="home">
+                        Events
+                    </a>
+                </li>
+                <li>
+                    <a href="#favoritos" data-transition="fade" data-theme="a" data-icon="star">
+                        Favorit
+                    </a>
+                </li>
+                <li>
+                    <a href="#buscar" data-transition="fade" data-theme="a" data-icon="search">
+                        Buscar
+                    </a>
+                </li>
+                <li>
+                    <a href="#configuracion" data-transition="fade" data-theme="a" data-icon="gear">
                         Config
                     </a>
                 </li>
